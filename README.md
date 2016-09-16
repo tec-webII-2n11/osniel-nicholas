@@ -1,6 +1,6 @@
 # osniel-nicholas
 Projeto do semestre
-Tema:
+Tema: Rede social para animais de estimação
 
 Público-alvo:
 
