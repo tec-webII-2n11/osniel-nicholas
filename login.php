@@ -1,10 +1,12 @@
-<html>
+<!DOCTYPE php>
+<html lang="pt-br"> 
     <head>
         <title>Petnet - Login</title>
-        <meta charset="UTF-8">
-        <meta name="author" content="Osniel Lopes Teixeira - TIA 316.1940-1">
+        <meta charset="utf-8">
+        <meta name="author" content="Osniel Lopes Teixeira - TIA 316.1940-1"/>
         <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
         <script type="text/javascript">
+            //Fundo aleatório
             var banner= new Array()
             banner[0]="https://media.giphy.com/media/26h0q9kT1eULfuNWg/giphy.gif"
             banner[1]="https://media.giphy.com/media/l0K4apzqsMv8K4jSw/giphy.gif"
@@ -20,10 +22,24 @@
             document.write(' background:url("' + banner[random] + '");');
             document.write(" }");
             document.write("</style>");
+            //Funcao para exibir campos de login
+            function logar(){
+                document.getElementById("cadastrar").className = "invisivel";
+                document.getElementById("entrar").className = "invisivel";
+                document.getElementById("email").className = "";
+                document.getElementById("senha").className = "";
+                document.getElementById("login").className = "";
+            }
+            //Funcao ao clicar em Login
+            function atualiza(){
+                location.reload();
+                alert("Login efetuado com sucesso!");
+            }
         </script>
         <style type="text/css">
             *{
                 color: white;
+                font-family: 'Poppins', sans-serif;
             }
             body{
                 background-size:cover;
@@ -39,14 +55,13 @@
                 top: 20%;
                 margin-left: -80px;
                 color: white;
-                font-family: 'Poppins', sans-serif;
                 font-size: 50px;
             }
             #entrar{
                 position: absolute;
                 left: 50%;
                 top: 30%;
-                margin-top: 50px;
+                margin-top: 60px;
                 margin-left: -100px;
                 width: 200px;
                 height: 37px;
@@ -54,11 +69,14 @@
                 background-color: cornflowerblue;
                 border: 0px;
             }
+            .invisivel{
+                display: none;
+            }
             #cadastrar{
                 position: absolute;
                 left: 50%;
                 top: 30%;
-                margin-top: 100px;
+                margin-top: 110px;
                 margin-left: -100px;
                 width: 200px;
                 height: 37px;
@@ -66,12 +84,49 @@
                 background-color: lightblue;
                 border: 0px;
             }
+            #email,#senha{
+                color: black;
+                position: absolute;
+                left: 50%;
+                top: 30%;
+                width: 200px;
+                height: 35px;
+                border-radius: 2.5px;
+                margin-left: -100px;
+                border: 0px;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+            #email{
+                margin-top: 60px;
+            }
+            #senha{
+                margin-top: 110px;
+            }
+            #login{
+                position: absolute;
+                left: 50%;
+                top: 30%;
+                margin-top: 160px;
+                margin-left: -100px;
+                width: 200px;
+                height: 37px;
+                border-radius: 5px;
+                background-color: cornflowerblue;
+                border: 0px;
+            }
+            
         </style>
     </head>
     	
 <body>
+    
 	<p>PetNet</p>  
-    <input name="" type="button" value="Entrar" id="entrar">
-    <input name="" type="button" value="Cadastrar-se" id="cadastrar">
+    <input type="button" value="Entrar" id="entrar" onclick="logar()">
+    <input type="button" value="Cadastre-se" id="cadastrar">
+    <input type="email" name="email" id="email" class="invisivel" placeholder="E-mail"/>
+    <input type="password" name="senha" id="senha" class="invisivel" placeholder="Senha"/>
+    <input type="button" class="invisivel">
+    <input name="Login" type="button" value="Login" id="login" class="invisivel" onclick="atualiza()">
 </body>
 </html>
