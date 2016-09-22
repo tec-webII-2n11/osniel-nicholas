@@ -1,4 +1,4 @@
-<!DOCTYPE php>
+<!DOCTYPE html>
 <html lang="pt-br"> 
     <head>
         <title>Petnet - Login</title>
@@ -30,11 +30,6 @@
                 document.getElementById("senha").className = "";
                 document.getElementById("login").className = "";
             }
-            //Funcao ao clicar em Login
-            function atualiza(){
-                location.reload();
-                alert("Login efetuado com sucesso!");
-            }
         </script>
         <style type="text/css">
             *{
@@ -56,6 +51,9 @@
                 margin-left: -80px;
                 color: white;
                 font-size: 50px;
+            }
+            #entrar, #cadastrar, #login{
+                cursor:pointer;
             }
             #entrar{
                 position: absolute;
@@ -89,7 +87,7 @@
                 position: absolute;
                 left: 50%;
                 top: 30%;
-                width: 200px;
+                width: 180px;
                 height: 35px;
                 border-radius: 2.5px;
                 margin-left: -100px;
@@ -115,7 +113,25 @@
                 background-color: cornflowerblue;
                 border: 0px;
             }
-            
+            nav{
+                position: absolute;
+                left: 100%;
+                top: 50%;
+                margin: -50px 0px 0px -100px;
+                width: 100px;
+                height: 100px;
+            }
+            #explore{
+                transform: rotate(-90deg);
+                font-size: 25px;
+                margin: 0px 0px 0px -80px;
+                
+            }
+            #seta{
+                width: 55px;
+                height: 90px;
+                margin: 0px -0px 0px 27px;
+            }
         </style>
     </head>
     	
@@ -126,7 +142,10 @@
     <input type="button" value="Cadastre-se" id="cadastrar">
     <input type="email" name="email" id="email" class="invisivel" placeholder="E-mail"/>
     <input type="password" name="senha" id="senha" class="invisivel" placeholder="Senha"/>
-    <input type="button" class="invisivel">
-    <input name="Login" type="button" value="Login" id="login" class="invisivel" onclick="atualiza()">
+    <input name="Login" type="button" value="Login" id="login" class="invisivel" onclick="location.href='https://petnet-osniel.c9users.io/timeline.php'">
+    <nav>
+        <a href="https://petnet-osniel.c9users.io/explorar.php"><p id="explore">Explore</p></a>
+        <img src="\seta.png" id="seta"></img>
+    </nav>
 </body>
 </html>
