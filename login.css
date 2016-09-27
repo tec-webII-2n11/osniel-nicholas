@@ -1,0 +1,100 @@
+*{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-size:cover;
+}
+input{
+    position: relative;
+    left: 600px;
+    top: 300px;
+}   
+p{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    margin-left: -80px;
+    color: white;
+    font-size: 50px;
+}
+#entrar, #cadastrar, #login{
+    cursor:pointer;
+}
+#entrar{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    margin-top: 60px;
+    margin-left: -100px;
+    width: 200px;
+    height: 37px;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    border: 0px;
+}
+.invisivel{
+    display: none;
+}
+#cadastrar{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    margin-top: 110px;
+    margin-left: -100px;
+    width: 200px;
+    height: 37px;
+    border-radius: 5px;
+    background-color: lightblue;
+    border: 0px;
+}
+#email,#senha{
+    color: black;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    width: 180px;
+    height: 35px;
+    border-radius: 2.5px;
+    margin-left: -100px;
+    border: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#email{
+    margin-top: 60px;
+}
+#senha{
+    margin-top: 110px;
+}
+#login{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    margin-top: 160px;
+    margin-left: -100px;
+    width: 200px;
+    height: 37px;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    border: 0px;
+}
+nav{
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    margin: -50px 0px 0px -100px;
+    width: 100px;
+    height: 100px;
+}
+#explore{
+    transform: rotate(-90deg);
+    font-size: 25px;
+    margin: 0px 0px 0px -80px;
+    
+}
+#seta{
+    width: 55px;
+    height: 90px;
+    margin: 0px -0px 0px 27px;
+}

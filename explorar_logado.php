@@ -3,6 +3,7 @@
     <head>
         <title>Petnet - Explore</title>
         <meta charset="utf-8">
+        <meta name="author" content="Nicholas Ken Ywahara 31606954">
         <meta name="author" content="Osniel Lopes Teixeira - TIA 316.1940-1"/>
         <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
         <script type="text/javascript">
@@ -23,56 +24,14 @@
             document.write(" }");
             document.write("</style>");
         </script>
-        <style type="text/css">
-            *{
-                font-family: 'Poppins', sans-serif;
-            }
-            body{
-                background-color: #F2F2F2;
-                margin: 0px;
-            }
-            header{
-                width: 100%;
-                height: 50px;
-                margin: 0px;
-                background-color: LightBlue;
-            }
-            #home{
-                position: absolute;
-                left: 50%;
-                text-decoration: none;
-                color: white;
-                font-size: 30px;
-                background-color: LightBlue;
-                padding-left: 10px;
-                margin-left: -53px
-            }
-            #posts{
-                margin-left: 8%;
-            }
-            article{
-                float: left;
-                width: 300px;
-                height: 300px;
-                background-color: white;
-                margin: 3% 3% 3% 3%;
-                border-radius: 3px;
-                border: solid 1px #E6E6E6;
-            }
-            .blabla{
-                width: 300px;
-                height: 300px;
-                background-color: white;
-                float: left;
-                margin: 3% 3% 3% 3%;
-                border-radius: 3px;
-                border: solid 1px #E6E6E6;
-            }
-        </style>
+        <link rel="stylesheet" type="text/css" href="explorar_logado.css">
     </head>
     <body>
         <header>
-            <a href="https://petnet-osniel.c9users.io/timeline.php" id="home">PetNet</a>
+            <a href="https://petnet-osniel.c9users.io/timeline.php" id="petnet">PetNet</a>
+            <form>
+                <input type="text" name="pesquise" id="pesquise" placeholder="Pesquisar"/>
+            </form>
         </header>  
         <?php include "posts_explore.php" ?>
     </body>

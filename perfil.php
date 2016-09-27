@@ -3,6 +3,7 @@
     <head>
         <title>Petnet - Perfil</title>
         <meta charset="utf-8">
+        <meta name="author" content="Nicholas Ken Ywahara 31606954">
         <meta name="author" content="Osniel Lopes Teixeira - TIA 316.1940-1"/>
         <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
         <style type="text/css">

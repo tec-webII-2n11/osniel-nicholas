@@ -1,0 +1,127 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #F2F2F2;
+    margin: 0px;
+}
+header{
+    width: 100%;
+    height: 50px;
+    margin: 0px;
+    background-color: LightBlue;
+}
+#petnet{
+    position: absolute;
+    left: 50%;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    background-color: LightBlue;
+    margin-left: -166px;
+}
+#pesquise{
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    margin-left: 10px;
+    height: 23px;
+    padding-left: 10px;
+    border-radius: 3px;
+    border: solid 1px #E6E6E6;
+}
+nav{
+    position: fixed;
+    right: 10px;
+    background-color: white;
+    width: 20%;
+    height: 180px;
+    margin: 3% 2% 0 0;
+    border-radius: 3px;
+    border: solid 1px #E6E6E6;
+}
+article{
+    position: relative;
+    left: 50%;
+    top: 2%;
+    background-color: white;  
+    border-radius: 3px;
+    border: solid 1px #E6E6E6;
+    width: 600px;
+    height: 400px;
+    margin: 3% 0 0 -300px;
+}
+p{
+    margin-left: 10px;
+}
+.nav{
+    margin-left: 20px;
+    margin-top: 30px;
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style: none;
+}
+#novopost:hover, #novaDenuncia, .enter, #postar, #denunciar{
+    cursor:pointer;
+}
+#post{
+    position: fixed;
+    top: 280px;
+    right: 37px;
+    border-radius: 3px;
+    border: solid 1px #E6E6E6;
+    background-color: white;
+    width: 250px;
+    padding-left: 20px;
+}
+#denuncie{
+    position: fixed;
+    top: 90px;
+    right: 37px;
+    border-radius: 3px;
+    border: solid 1px #E6E6E6;
+    background-color: white;
+    width: 230px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+textarea{
+    resize: none;
+    margin-top: 20px;
+}
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.invisivel{
+    display: none;
+}
+#postar,#denunciar{
+    border-radius: 5px;
+    border: 0px;
+    width: 150px;
+    height: 30px;
+    margin: 0px 0 10px 40px;
+    color:white;
+}
+#postar{
+    background-color: cornflowerblue;
+    margin-top: 10px;
+}
+#denunciar{
+    background-color: black;
+}
+#titulo{
+    margin-top: 20px;
+    width: 221px;
+}
+#labeldeclaracao{
+    font-size: 10px;
+    text-align: right;
+}
