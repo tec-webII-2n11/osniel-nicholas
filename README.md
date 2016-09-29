@@ -14,6 +14,6 @@ Usuário Logado: Postar fotos e textos, criar amizades, avaliar locais, explorar
 
 Usuário Visitante: Explorar a rede
 
-Mapa de Navegação: 
+Mapa de Navegação: https://petnet-osniel.c9users.io/mapa_de_navegacao.jpg
 
 Wireframe:
