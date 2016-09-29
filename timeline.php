@@ -38,17 +38,19 @@
             </nav>
             <div id="post" class="invisivel">
                 <form>
-                    <textarea rows="5" cols="34" placeholder="Conte-nos uma historia, nos mostre a foto daquele passeio super bacana."></textarea>
+                    <label for="texto_post" class="invisivel">Texto ou título do post</label>
+                    <textarea  id="texto_post" rows="5" cols="34" placeholder="Conte-nos uma historia, nos mostre a foto daquele passeio super bacana."></textarea>
                     <input type="file" name="file"  class="inputfile" /><br/>
                     <label for="file" class="enter">Adicionar foto</label><br/>
                     <input type="button" name="postar" id="postar" value="Postar!" onclick="history.go(0)"/>
                 </form>
             </div>
             <div id="denuncie" class="invisivel">
-                <form>
+                <form enctype="multipart/form-data">
                     <label for="titulo" class="invisivel">Titulo</label>
                     <input type="text" name="titulo" id="titulo" placeholder="Forneça uma breve descrição"/>
-                    <textarea rows="5" cols="34" placeholder="Explique em detalhes a situação a qual o animal está sendo submetido."></textarea>
+                    <label for="descricao_denuncia" class="invisivel">Descrição em detalhes</label>
+                    <textarea id="descricao_denuncia" rows="5" cols="34" placeholder="Explique em detalhes a situação a qual o animal está sendo submetido."></textarea>
                     <input type="file" name="file" class="inputfile" /><br/>
                     <label for="file" class="enter">Adicionar foto</label><br/>
                     <input type="checkbox" name="declaracao" id="declaracao"/>
