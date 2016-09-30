@@ -17,6 +17,7 @@
             banner[5]="https://media.giphy.com/media/3oAt1M3UrBAsn3WvRK/giphy.gif";
             banner[6]="https://media.giphy.com/media/26ufmXyNfm329F1hm/giphy.gif";
             banner[7]="https://media.giphy.com/media/l41YuupcfDs5bSOGI/giphy.gif";
+            banner[8]="https://media.giphy.com/media/xT1XGXm20TnY1cNPDG/giphy.gif";
             var random=Math.floor(8*Math.random());
             document.write("<style>");
             document.write("body {");
