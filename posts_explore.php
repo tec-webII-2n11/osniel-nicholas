@@ -1,13 +1,9 @@
 <section id="posts">
             <article>        </article>
-            <p class="blabla">Aqui é Body Builder Ipsum! Que não vai dá rapaiz, não vai dá. É verão o ano todo, vem cumpadi. Aqui nóis constrói fibra, não é água com músculo. É esse que a gente quer, é ele que nóis vamo buscar. É 37 anos! Negativa Bambam negativa.
-
-                Vem! Ó o homem ali!, é 13! Vamo monstro! Boraaa, Hora do Show. Eu quero esse 13 daqui a pouquinho aí. É esse que a gente quer, é ele que nóis vamo buscar.</p>
+            <p class="blabla">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a urna venenatis, mollis lorem finibus, convallis ligula. Praesent nec facilisis justo. Proin cursus, enim quis malesuada vehicula, odio justo pretium lorem, id facilisis neque felis a arcu. Nulla volutpat magna vitae nulla vulputate gravida. Nulla sit amet ultrices justo. Nam tristique eros ullamcorper.</p>
             <article>        </article>
             <article>        </article>
             <article>      </article>
-            <p class="blabla">Aqui é Body Builder Ipsum! Que não vai dá rapaiz, não vai dá. É verão o ano todo, vem cumpadi. Aqui nóis constrói fibra, não é água com músculo. É esse que a gente quer, é ele que nóis vamo buscar. É 37 anos! Negativa Bambam negativa.
-
-                Vem! Ó o homem ali!, é 13! Vamo monstro! Boraaa, Hora do Show. Eu quero esse 13 daqui a pouquinho aí. É esse que a gente quer, é ele que nóis vamo buscar.</p>
+            <p class="blabla">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a urna venenatis, mollis lorem finibus, convallis ligula. Praesent nec facilisis justo. Proin cursus, enim quis malesuada vehicula, odio justo pretium lorem, id facilisis neque felis a arcu. Nulla volutpat magna vitae nulla vulputate gravida. Nulla sit amet ultrices justo. Nam tristique eros ullamcorper.</p>
             <article><h1></h1>        </article>
 </section>

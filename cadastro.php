@@ -142,6 +142,6 @@ Concordo com os Termos de Uso e Política de Privacidade.</label>
     <input type="button" value="Cadastrar-se" id="cadastro1" onclick="location.href='timeline.php'">
     </form> 
     </div>        
-    </article>    
+    </article>
 </body>
 </html>
