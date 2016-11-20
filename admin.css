@@ -30,6 +30,16 @@ header{
     border-radius: 3px;
     border: solid 1px #E6E6E6;
 }
+#logout{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    border-width:0px;
+    padding: 0px;
+    background-color: LightBlue;
+}
 #head{
     position: relative;
     left: 50%;
@@ -43,12 +53,45 @@ article{
     left: 50%;
     top: 2%;
     right: 0%;
-    background-color: white;  
     border-radius: 3px;
     border: solid 1px #E6E6E6;
     width: 600px;
-    height: 400px;
+    height: auto;
     margin: 3% 0 0 -300px;
+    background-color: white;
+}
+article img{
+    width: 600px;
+    height: auto;
+    
+}
+article p.descricao{
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+article form .deleta{
+    color: white;
+    width: 65px;
+    height: 37px;
+    border-radius: 5px;
+    background-color: red;
+    border: 0px;
+    float: right;
+    margin-right: 150px;
+    margin-bottom: 10px;
+}
+article form .mantem{
+    color: white;
+    width: 65px;
+    height: 37px;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    border: 0px;
+    margin-left: 150px;
+    margin-bottom: 10px;
+}
+.deleta,.mantem{
+    cursor: pointer;
 }
 .nome{
     margin-left: 10px;

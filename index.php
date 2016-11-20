@@ -1,3 +1,21 @@
+<?php
+    if(isset($_COOKIE['usuario']) || isset($_COOKIE['id'])){
+        if(isset($_POST['submit'])){
+            $usuario = $_COOKIE['usuario'];
+            setcookie('usuario','',-300);
+            $id = $_COOKIE['id'];
+            setcookie('id','',-300);
+            $_POST['logout'] = "";
+            header("location:timeline.php");
+        }elseif($_COOKIE['usuario']=="Administrador"){
+         header("location:admin.php");
+    
+        }else{
+            header("location:timeline.php");
+        }
+    }    
+    else{
+?>
 <!DOCTYPE html>
 <html lang="pt-br"> 
     <head>
@@ -33,20 +51,23 @@
                 document.getElementById("login").className = "";
             }
         </script>
-        <link rel="stylesheet" href="/login.css" type="text/css" />
+        <link rel="stylesheet" href="/index.css" type="text/css" />
     </head>
     	
 <body>
     
 	<p>PetNet</p>  
-    <input type="button" value="Entrar" id="entrar" onclick="logar()">
-    <input type="button" value="Cadastre-se" id="cadastrar" onclick="location.href='cadastro.php'">
-    <input type="email" name="email" id="email" class="invisivel" placeholder="E-mail"/>
-    <input type="password" name="senha" id="senha" class="invisivel" placeholder="Senha"/>
-    <input name="Login" type="button" value="Login" id="login" class="invisivel" onclick="location.href='https://petnet-osniel.c9users.io/timeline.php'">
+	<form method="POST" action="index_verifica.php">
+	    <input type="button" value="Entrar" id="entrar" onclick="logar()">
+        <input type="button" value="Cadastre-se" id="cadastrar" onclick="location.href='cadastro.php'">
+        <input type="email" name="email" id="email" class="invisivel" placeholder="E-mail"/>
+        <input type="password" name="senha" id="senha" class="invisivel" placeholder="Senha"/>
+        <input name="Login" type="submit" value="Login" id="login" class="invisivel">    
+	</form>
     <nav>
         <a href="https://petnet-osniel.c9users.io/explorar.php"><p id="explore">Explore</p></a>
         <img src="seta.png" id="seta" alt="seta para a direita">
     </nav>
 </body>
 </html>
+<?php } ?>
