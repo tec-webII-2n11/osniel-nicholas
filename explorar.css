@@ -46,16 +46,46 @@ header{
     width: 30%;
 }
 #posts{
-    margin-left: 8%;
+    padding-left: 190px;
+     padding-right: 210px;
 }
 article{
-    float: left;
-    width: 300px;
-    height: 300px;
-    background-color: white;
-    margin: 3% 3% 3% 3%;
+    position: relative;
+    top: 2%;
+    right: 0%;
     border-radius: 3px;
     border: solid 1px #E6E6E6;
+    width: 400px;
+    height: auto;
+    min-height: 400px;
+    margin: 3% 0 0 50px;
+    background-color: white;
+}
+article img{
+    width: 400px;
+    height: auto;
+    
+}
+.nome{
+    margin-left: 10px;
+    margin-bottom: 6px;
+}
+
+article p.descricao{
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+input{
+    border: 0px;
+    background-color: white;
+    color: rgb(99, 129, 206);
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    
+}
+input:hover{
+    cursor: pointer;
 }
 .blabla{
     width: 300px;

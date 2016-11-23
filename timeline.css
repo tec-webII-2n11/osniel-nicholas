@@ -30,12 +30,23 @@ header{
     border-radius: 3px;
     border: solid 1px #E6E6E6;
 }
+#logout{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    border-width:0px;
+    padding: 0px;
+    background-color: LightBlue;
+}
+
 nav{
     position: fixed;
     right: 75px;
     background-color: white;
     width: 270px;
-    height: 180px;
+    height: 140px;
     margin: 3% 0 0 0;
     border-radius: 3px;
     border: solid 1px #E6E6E6;
@@ -44,14 +55,24 @@ article{
     position: relative;
     left: 50%;
     top: 2%;
-    background-color: white;  
+    right: 0%;
     border-radius: 3px;
     border: solid 1px #E6E6E6;
     width: 600px;
-    height: 400px;
+    height: auto;
     margin: 3% 0 0 -300px;
+    background-color: white;
 }
-p{
+article img{
+    width: 600px;
+    height: auto;
+    
+}
+article p.descricao{
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+.nome{
     margin-left: 10px;
 }
 .nav{
@@ -63,12 +84,12 @@ p{
 ul{
     list-style: none;
 }
-#novopost:hover, #novaDenuncia, .enter, #postar, #denunciar{
+#novopost:hover, #novaDenuncia, #postar, #denunciar, #logout{
     cursor:pointer;
 }
 #post{
     position: fixed;
-    top: 280px;
+    top: 240px;
     right: 75px;
     border-radius: 3px;
     border: solid 1px #E6E6E6;
@@ -98,6 +119,9 @@ textarea{
 	overflow: hidden;
 	position: absolute;
 	z-index: -1;
+}
+.inputfile + label{
+    cursor:pointer;    
 }
 .invisivel{
     display: none;
